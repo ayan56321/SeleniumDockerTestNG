@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Book a Flight" parallel="tests">
+
+<test name="SearchTest">
+<parameter name="keyword" value="webdriver" />
+<classes>	
+	<class name="com.searchmodule.tests.SearchTest"></class>
+</classes>
+</test>
+
+<test name="SearchTest-2">
+<parameter name="keyword" value="java" />
+<classes>	
+	<class name="com.searchmodule.tests.SearchTest"></class>
+</classes>
+</test>
+
+<test name="SearchTest-3">
+<parameter name="keyword" value="kubernetes" />
+<classes>	
+	<class name="com.searchmodule.tests.SearchTest"></class>
+</classes>
+</test>
+
+</suite>

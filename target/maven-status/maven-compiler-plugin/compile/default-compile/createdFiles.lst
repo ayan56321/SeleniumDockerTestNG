@@ -1,0 +1,7 @@
+com\newtours\Pages\RegistrationPage.class
+com\newtours\Pages\FlightDetailsPage.class
+com\newtours\Pages\RegistrationConfirmation.class
+com\Docker\SeleniumGrid\App.class
+com\newtours\Pages\FindFlightPage.class
+com\SearchModule\pages\SearchPage.class
+com\newtours\Pages\FlightConfirmationPage.class
